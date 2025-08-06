@@ -1,1 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallvex Science. Applied to Life. | Wallvex United States</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fff;
+        }
 
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header styles - Mimicking 3M's blue header with red logo */
+        header {
+            background-color: #004b87; /* Dark blue similar to 3M's corporate blue */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ed1c24; /* Red similar to 3M logo */
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            background-color: white;
+            border-radius: 20px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input {
+            border: none;
+            outline: none;
+            width: 200px;
+        }
+
+        /* Hero banner - Mimicking dynamic hero with slogan and image */
+        .hero {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('https://via.placeholder.com/1920x600?text=Wallvex+Hero+Image+Sanding+Abrasives'); /* Placeholder for hero image */
+            background-size: cover;
+            color: #004b87;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        /* Product showcase section */
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-size: 36px;
+            color: #004b87;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            width: 300px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            background-color: #eee; /* Placeholder image */
+        }
+
+        .product-card h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        /* News/Stories section - Mimicking 3M's news feed */
+        .news {
+            background-color: #f8f8f8;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .news h2 {
+            font-size: 36px;
+            color: #004b87;
+        }
+
+        .news-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .news-card {
+            width: 300px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Footer - Mimicking 3M's footer with links and parent company */
+        footer {
+            background-color: #004b87;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links div {
+            font-size: 14px;
+        }
+
+        .footer-links div ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links div ul li {
+            margin: 5px 0;
+        }
+
+        .parent-company {
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        /* Responsive design for mobile */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero {
+                padding: 50px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with logo, navigation, and search -->
+    <header>
+        <div class="logo">Wallvex</div>
+        <nav>
+            <ul>
+                <li>Products</li>
+                <li>Industries</li>
+                <li>About Wallvex</li>
+                <li>Help Center</li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <!-- Hero banner -->
+    <section class="hero">
+        <h1>Wallvex Science. Applied to Life.</h1>
+        <p>Discover our innovative sanding abrasive products designed for perfection.</p>
+    </section>
+
+    <!-- Product showcase -->
+    <section class="products">
+        <h2>Explore Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Sanding+Discs" alt="Sanding Discs">
+                <h3>Sanding Discs</h3>
+                <p>High-performance discs for smooth finishes.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Abrasive+Belts" alt="Abrasive Belts">
+                <h3>Abrasive Belts</h3>
+                <p>Durable belts for heavy-duty sanding.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x200?text=Hand+Sanding+Products" alt="Hand Sanding Products">
+                <h3>Hand Sanding Products</h3>
+                <p>Ergonomic tools for precise work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News/Stories section -->
+    <section class="news">
+        <h2>Wallvex Stories</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <h3>Innovation in Abrasives</h3>
+                <p>Learn how Wallvex is revolutionizing sanding technology.</p>
+            </div>
+            <div class="news-card">
+                <h3>Sustainability Efforts</h3>
+                <p>Our commitment to eco-friendly products.</p>
+            </div>
+            <div class="news-card">
+                <h3>Customer Success</h3>
+                <p>Stories from our satisfied clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h4>Products</h4>
+                <ul>
+                    <li>All Products</li>
+                    <li>Abrasives</li>
+                    <li>Accessories</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Industries</h4>
+                <ul>
+                    <li>Manufacturing</li>
+                    <li>Construction</li>
+                    <li>Automotive</li>
+                </ul>
+            </div>
+            <div>
+                <h4>About Wallvex</h4>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <ul>
+                    <li>Support</li>
+                    <li>FAQs</li>
+                    <li>Where to Buy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="social">
+            <!-- Placeholder for social icons -->
+            <p>Follow us: Facebook | Twitter | LinkedIn</p>
+        </div>
+        <p class="parent-company">Wallvex is a brand of Cave Mills Solutions & Supplies. © 2025 Cave Mills Solutions & Supplies. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
